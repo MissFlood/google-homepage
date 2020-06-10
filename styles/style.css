@@ -1,0 +1,151 @@
+
+
+body {
+    margin: 0px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #222;
+    height: 450px;
+}
+a:visited {
+    color: #222;
+}
+a:hover {
+    text-decoration: underline!important;
+    opacity: 0.9;
+}
+header {
+    padding-top: 6px;
+}
+#left-menu {
+    position: absolute;
+    height: 50px;
+    line-height: 50px;
+}
+#right-menu {
+    float: right;
+    padding-right: 30px;
+    height: 50px;
+    line-height: 50px;
+}
+#left-menu a{
+    padding-left: 15px;
+    text-decoration: none;
+}
+#about {
+    margin-left: 10px;
+}
+
+#right-menu a, #apps-icon {
+    padding-right: 15px;
+    text-decoration: none;
+}
+#apps-icon {
+    width: 24px;
+    vertical-align: middle;
+    opacity: 0.7;
+  }
+  #apps-icon:hover {
+      opacity: 1;
+      cursor: pointer;
+  }
+
+#sign-in {
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    background-color: #4683ea;
+    padding: 6.5px 12px!important;
+    cursor: pointer;
+    text-decoration: none!important;
+}
+#sign-in:hover {
+opacity: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#google-logo {
+    height: 92px;
+    width: 272px;
+    padding-top: 100px;
+    padding-bottom: 29px;
+}
+#search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+}
+#search-container:hover {
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
+}
+#search-bar {
+    display: inline-block;
+    height: 34px;
+    width: 487px;
+    margin: auto;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+#search-icon, #mic-icon {
+    height: 22px;
+    padding: 15px;
+}
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    background-color: #f5f5f5;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 13.9px;
+    margin: 29px 5px 11px 5px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+.buttons:hover {
+    border: 1px solid rgb(172, 172, 172);
+}
+footer {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+}
+footer a {
+    color: #5f6368!important;
+}
+left-footer a {
+    padding-left: 27px;
+}
+#settings {
+    padding-right: 27px;
+}
+footer a {
+    text-decoration: none;
+    padding-left: 27px;
+}

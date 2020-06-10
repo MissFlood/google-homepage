@@ -1,1 +1,1 @@
-The Odin Project: Build the google.com homepage (easy version)
+The Odin Project Assignment: Build the google.com homepage
