@@ -7,6 +7,10 @@ body {
     color: #222;
     height: 450px;
 }
+
+a {
+    color: inherit;
+}
 a:visited {
     color: #222;
 }
